@@ -12,9 +12,7 @@ app.post('/', function (req, res, next) {
     n = req.body.name;
 
     p = req.body.name="hello ";
-
     console.log("this is middleware fncn 1");
-
     next();
 
 
